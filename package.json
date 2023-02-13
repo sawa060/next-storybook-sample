@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.0",
@@ -38,6 +39,9 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.0",
     "eslint-plugin-storybook": "^0.6.10"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "next-storybook-sample@0.1.0"
 }
