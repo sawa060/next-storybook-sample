@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "chromatic": "chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
@@ -28,19 +28,19 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@chakra-ui/storybook-addon": "4.0.16",
-    "@storybook/addon-actions": "6.5.16",
-    "@storybook/addon-essentials": "6.5.16",
-    "@storybook/addon-interactions": "6.5.16",
-    "@storybook/addon-links": "6.5.16",
-    "@storybook/builder-webpack5": "6.5.16",
-    "@storybook/manager-webpack5": "6.5.16",
-    "@storybook/react": "6.5.16",
-    "@storybook/testing-library": "0.0.13",
+    "@chakra-ui/storybook-addon": "5.0.0",
+    "@storybook/addon-actions": "7.0.22",
+    "@storybook/addon-essentials": "7.0.22",
+    "@storybook/addon-interactions": "7.0.22",
+    "@storybook/addon-links": "7.0.22",
+    "@storybook/nextjs": "7.0.22",
+    "@storybook/react": "7.0.22",
+    "@storybook/testing-library": "0.2.0",
     "babel-loader": "8.3.0",
     "chromatic": "6.17.0",
     "eslint": "8.34.0",
     "eslint-config-next": "13.4.4",
-    "eslint-plugin-storybook": "0.6.10"
+    "eslint-plugin-storybook": "0.6.12",
+    "storybook": "7.0.22"
   }
 }
